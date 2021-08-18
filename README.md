@@ -103,3 +103,15 @@ docker-compose stop
 Find the container running: docker container ls
 
 Stop the container: docker stop {container_id}
+
+## Docker for AWS
+
+based on the website: https://typeofnan.dev/how-to-serve-a-react-app-with-nginx-in-docker/
+
+docker build -t middleston-park .
+
+run it locally with: docker run --rm -it -p 8080:80 middleston-park
+
+push into AWS with the commands in the repo
+
+create a cluster, use fargate, create a task definition to point to the image
