@@ -115,3 +115,5 @@ run it locally with: docker run --rm -it -p 8080:80 middleston-park
 push into AWS with the commands in the repo
 
 create a cluster, use fargate, create a task definition to point to the image
+
+.
